@@ -1,20 +1,21 @@
-resource "google_compute_instance" "teste-zabbix-cloud" {
-  name         = "zabbix-server"
+resource "google_compute_instance" "instance2" {
+  name         = "instance2"
   machine_type = "n1-standard-1"
   zone         = "southamerica-east1-a"
+  tags         = ["http-server", "https-server"]
 
   service_account {
     scopes = ["userinfo-email", "compute-ro", "storage-ro"]
   }
 
   boot_disk {
-    device_name = "zabbix-server"
-    auto_delete = "true"
-
     initialize_params {
       size  = 50
-      image = "centos-7-v20180104"
+      image = "centos-cloud/centos-7-v20180314"
     }
+
+    device_name = "teste"
+    auto_delete = "true"
   }
 
   network_interface {
