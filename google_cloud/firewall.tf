@@ -1,5 +1,5 @@
-resource "google_compute_firewall" "default-allow-server-app" {
-  name    = "default-allow-server-app"
+resource "google_compute_firewall" "default-allow-jetty-server" {
+  name    = "default-allow-jetty-server"
   network = "default"
   direction = "INGRESS"
   

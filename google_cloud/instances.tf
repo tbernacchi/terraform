@@ -1,5 +1,5 @@
-resource "google_compute_instance" "tomcat-server" {
-  name         = "tomcat-server"
+resource "google_compute_instance" "jetty-server" {
+  name         = "jetty-server"
   machine_type = "n1-standard-1"
   zone         = "southamerica-east1-a"
   tags         = ["http-server", "https-server"]
