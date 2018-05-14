@@ -42,4 +42,4 @@ $ terraform plan
 $ terraform apply
 ```
 
-# # I'm adjusting the script.sh for use with CentOS-7.
+I'll create the script.sh to set up thing with CentOS-7.
