@@ -14,6 +14,7 @@ Instructions
 
 ```bash
 $ git clone git@github.com:tbernacchi/terraform.git
+$ cd smaato_test
 $ terraform init 
 $ terraform plan 
 $ terraform apply
