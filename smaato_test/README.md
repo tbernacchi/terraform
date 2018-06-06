@@ -5,7 +5,8 @@ Requirements
 ------------
 
 - A Google account;
-- A service-account key for a project (e.g: google-cloud-terraform-key.json); 
+- A project on GCP;
+- A service-account key for credentials; 
 - Terraform;
 
 Instructions
