@@ -8,12 +8,13 @@ Instructions to use this project.
 ## Instructions
 This directory contains the terraform files to bring a simple droplet on digital ocean.
 
-- You should create a personal access token to work with:
-https://www.digitalocean.com/docs/api/create-personal-access-token/<br/> 
+- You should create a personal access token to work with::<br/>
+https://www.digitalocean.com/docs/api/create-personal-access-token/
 
 - Export the token:
+<pre>
 export DO_PAT=<token> 
-
+</pre> 
 ```
 terraform init 
 ```
