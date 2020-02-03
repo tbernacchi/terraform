@@ -13,7 +13,7 @@ https://www.digitalocean.com/docs/api/create-personal-access-token/
 
 - Export the token:
 <pre>
-export DO_PAT=<token> 
+export DO_PAT=token
 </pre> 
 ```
 terraform init 
