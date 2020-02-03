@@ -22,7 +22,7 @@ resource "digitalocean_droplet" "www-1" {
   }
 
   provisioner "local-exec" {
-    command    = "yum update -y && yum install -y nginx"
+    command    = "yum update -y"
     on_failure = continue
   }
 }
