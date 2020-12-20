@@ -11,7 +11,7 @@
 </div>
 
 <div align=>
-	<img align="right" width="200px" src=/.github/assets/img/google-cloud-logo.png>
+	<img align="center" width="200px" src=/.github/assets/img/google-cloud-logo.png>
 </div>
 
 ## Table of Contents
