@@ -7,7 +7,7 @@
 ![Terraform](/.github/assets/img/terraform-logo.png)
 
 <div align=>
-	<img align="right" width="200px" src=/.github/assets/img/digital-ocean-logo.png>
+	<img align="center" width="200px" src=/.github/assets/img/digital-ocean-logo.png>
 </div>
 
 <div align=>
